@@ -1,0 +1,15 @@
+database_auto_usate
+
+Colonne:
+
+Id - numero - INT - PRIM KEY (AUTO_INCREMENT - UNIQUE)
+Marca - stringa - VARCHAR (30) - NOTNULL
+Modello - stringa - VARCHAR (30) - NOTNULL
+Anno Immatricolazione - data - YEAR - NOTNULL
+Km - numero - FLOAT (8, 2) - NOTNULL
+Benzina - boolean - TINYINT - NOTNULL
+Prezzo - numero - FLOAT(9, 2) - NOTNULL
+Provenienza Rivenditore - stringa - VARCHAR (30)
+Poster - stringa - VARCHAR (30) - DEFAULT (/img/image-default.jpg)
+Valutazione - stringa - VARCHAR (30) - NOTNULL
+
